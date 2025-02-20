@@ -9,10 +9,6 @@ Atenção: este fork implementa a correção que permite a geração de boletos 
 .. image:: https://coveralls.io/repos/github/Trust-Code/python-boleto/badge.svg?branch=master3
     :target: https://coveralls.io/github/Trust-Code/python-boleto?branch=master3
 
-.. image:: https://landscape.io/github/Trust-Code/python-boleto/master3/landscape.svg?style=flat
-   :target: https://landscape.io/github/Trust-Code/python-boleto/master3
-   :alt: Code Health
-
 .. image:: https://badge.fury.io/py/python3-boleto.svg
   :target: https://badge.fury.io/py/python3-boleto
 
