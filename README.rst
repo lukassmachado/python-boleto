@@ -1,6 +1,7 @@
 ========
-python-boleto - Fork mantido por Rafaek Guedes - este fork implementa a correção que permite a geração de boletos após 21-02-2025.
+python-boleto - Fork mantido por Rafael Guedes
 ========
+Atenção: este fork implementa a correção que permite a geração de boletos após 21-02-2025.
 
 .. image:: https://travis-ci.org/Trust-Code/python-boleto.svg?branch=master3
     :target: https://travis-ci.org/Trust-Code/python-boleto
