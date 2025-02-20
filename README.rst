@@ -1,5 +1,5 @@
 ========
-python-boleto - Fork mantido por Trustcode
+python-boleto - Fork mantido por Rafaek Guedes - este fork implementa a correção que permite a geração de boletos após 21-02-2025.
 ========
 
 .. image:: https://travis-ci.org/Trust-Code/python-boleto.svg?branch=master3
@@ -22,7 +22,7 @@ python-boleto é um projeto python para gerar boletos de cobrança.
 
 O projeto original pode ser encontrado aqui:
 https://github.com/eduardocereto/pyboleto
-
+https://github.com/Trust-Code/python-boleto
 
 .. contents::
     :local:
@@ -77,28 +77,9 @@ Documentation
 Installation
 ============
 
-Você pode instalar o pyboleto através do Python Package Index (PyPI)
-ou instalando diretamente da fonte.
+Você pode instalar o pyboleto diretamente da fonte ou através do requirements.txt,::
 
-Para instalar usando o pip,::
-
-    $ pip3 install python3-boleto
-
-
-.. _pyboleto-installing-from-source:
-
-Baixando e instalando da fonte
---------------------------------------
-
-Baixe a última versão do pyboleto em
-http://pypi.python.org/pypi/python-boleto/
-
-Você pode instalar utilizando os seguintes passos,::
-
-    $ tar xvfz python-boleto-0.0.0.tar.gz
-    $ cd python-boleto-0.0.0
-    $ python setup.py build
-    # python setup.py install # as root
+    python3-boleto @ git+https://github.com/rrguedes/python-boleto@master3
 
 .. _pyboleto-installing-from-hg:
 
@@ -107,7 +88,7 @@ Utilizando a versão de desenvolvimento
 
 Você pode clonar o repositório usando o seguinte comando::
 
-    $ git clone https://github.com/Trust-Code/python-boleto.git
+    $ git clone https://github.com/rrguedes/python-boleto.git
 
 .. _pyboleto-unittests:
 
@@ -128,4 +109,3 @@ License
 
 Este software é licenciado sob a `New BSD License`. Veja o arquivo 
 ``LICENSE`` na raiz do projeto para ler o texto completo.
-.. vim:tw=0:sw=4:et
