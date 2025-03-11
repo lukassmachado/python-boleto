@@ -1,7 +1,7 @@
 ========
-python-boleto - Fork mantido por Rafael Guedes
+python-boleto - Fork mantido por Lukas Machado
 ========
-Atenção: este fork implementa a correção que permite a geração de boletos após 21-02-2025.
+Atenção: este fork mantém personalizações necessárias para projetos futuros.
 
 .. image:: https://travis-ci.org/Trust-Code/python-boleto.svg?branch=master3
     :target: https://travis-ci.org/Trust-Code/python-boleto
@@ -20,6 +20,7 @@ python-boleto é um projeto python para gerar boletos de cobrança.
 O projeto original pode ser encontrado aqui:
 https://github.com/eduardocereto/pyboleto
 https://github.com/Trust-Code/python-boleto
+https://github.com/rrguedes/python-boleto
 
 .. contents::
     :local:
@@ -76,7 +77,7 @@ Installation
 
 Você pode instalar o pyboleto diretamente da fonte ou através do requirements.txt,::
 
-    python3-boleto @ git+https://github.com/rrguedes/python-boleto@master3
+    python3-boleto @ git+https://github.com/lukassmachado/python-boleto@master3
 
 .. _pyboleto-installing-from-hg:
 
@@ -85,7 +86,7 @@ Utilizando a versão de desenvolvimento
 
 Você pode clonar o repositório usando o seguinte comando::
 
-    $ git clone https://github.com/rrguedes/python-boleto.git
+    $ git clone https://github.com/lukassmachado/python-boleto.git
 
 .. _pyboleto-unittests:
 
